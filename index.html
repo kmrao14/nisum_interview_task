@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DataTable Javascript</title>
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+   <div class="container">
+      <div style="margin-top: 20px;">
+         <table id="datatableOne" class="data-table dt-expandable" cellspacing="0" cellpadding="0">
+            <thead>
+               <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Gender</th>
+                  <th>Age</th>
+                  <th class="td-hide">Other Details</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Ramsey Cummings</td>
+                  <td>male</td>
+                  <td>58</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Stefanie Huff</td>
+                  <td>female</td>
+                  <td>57</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Mabel David</td>
+                  <td>female</td>
+                  <td>88</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Frank Bradford</td>
+                  <td>male</td>
+                  <td>67</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Forbes Levine</td>
+                  <td>male</td>
+                  <td>69</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Santiago Mcclain</td>
+                  <td>male</td>
+                  <td>72</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Merritt Booker</td>
+                  <td>female</td>
+                  <td>96</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Brandy Savage</td>
+                  <td>female</td>
+                  <td>52</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Finch Barnett</td>
+                  <td>male</td>
+                  <td>71</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Nicole Crosby</td>
+                  <td>female</td>
+                  <td>76</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Carrie Mcconnell</td>
+                  <td>female</td>
+                  <td>82</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Ann James</td>
+                  <td>female</td>
+                  <td>64</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Dotson Vaughn</td>
+                  <td>male</td>
+                  <td>80</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Wright Kline</td>
+                  <td>male</td>
+                  <td>56</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Lula Morgan</td>
+                  <td>female</td>
+                  <td>50</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+            </tbody>
+         </table>
+         <div id="dt_one_pagination" class="pagination-nav"></div>
+      </div>
+
+
+      <div style="margin-top: 20px;">
+         <table id="datatableTwo" class="data-table dt-expandable" cellspacing="0" cellpadding="0">
+            <thead>
+               <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Gender</th>
+                  <th class="td-hide">Other Details</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Ramsey Cummings</td>
+                  <td>male</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Stefanie Huff</td>
+                  <td>female</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Mabel David</td>
+                  <td>female</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Frank Bradford</td>
+                  <td>male</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Forbes Levine</td>
+                  <td>male</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Santiago Mcclain</td>
+                  <td>male</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Merritt Booker</td>
+                  <td>female</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Brandy Savage</td>
+                  <td>female</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Finch Barnett</td>
+                  <td>male</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Nicole Crosby</td>
+                  <td>female</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Carrie Mcconnell</td>
+                  <td>female</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Ann James</td>
+                  <td>female</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Dotson Vaughn</td>
+                  <td>male</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Wright Kline</td>
+                  <td>male</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+               <tr>
+                  <td><a class="toggle_details"></a></td>
+                  <td>Lula Morgan</td>
+                  <td>female</td>
+                  <td class="td-hide"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+               </tr>
+            </tbody>
+         </table>
+         <div id="dt_two_pagination" class="pagination-nav"></div>
+      </div>
+   </div>
+
+   <script src="scripts/datatable.js"></script>
+</body>
+
+</html>

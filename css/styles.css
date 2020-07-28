@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Alata', sans-serif;
+   font-size: 14px;
+   background: #ebeff2;
+}
+
+.container {
+   width: 80%;
+   max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
+
+.data-table {
+   border-collapse: collapse;
+   width: 100%;
+   background: #fff;
+}
+
+.data-table thead tr th {
+   text-transform: uppercase;
+   background: #ccc;
+   padding: 10px;
+   text-align: left;
+}
+
+.data-table td, .data-table th {
+   border-bottom: 1px solid #f2f2f2;
+   text-align: left;
+}
+
+.data-table tbody tr td {
+   padding: 10px;
+}
+
+.data-table tbody tr:hover {
+   background-color: #f7f7f7;
+}
+
+.data-table tr.row>td:first-child {
+   background: url('../assets/images/right.png') no-repeat center center;
+   width: 60px;
+   cursor: pointer;
+}
+
+.data-table tr.row.open>td:first-child {
+   background: url('../assets/images/down.png') no-repeat center center;
+}
+
+.data-table tr.child>td:first-child {
+   padding-left: 75px;
+}
+
+.pagination-nav {
+   margin: 16px 0;
+}
+
+.pagination-nav span {
+   display: inline-block;
+   padding: 4px 8px;
+   margin: 1px;
+   cursor: pointer;
+   font-size: 14px;
+   background-color: #FFFFFF;
+   border: 1px solid #e1e1e1;
+   border-radius: 3px;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.pagination-nav span:hover, .pagination-nav .pg-selected {
+   background-color: #f9f9f9;
+   border: 1px solid #CCCCCC;
+}
+
+.hide_row {
+   display: none
+}
+
+.dt-expandable .td-hide {
+   display: none;
+}
